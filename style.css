@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../font/OpenSans-SemiBoldItalic.ttf") format(truetype);
+}
+
+html {
+    font-family: "Open Sans";
+    color: rgb(9, 94, 9);
+}
+
+
+:root {
+    --bcBody: rgb(140, 26, 139);
+    --bcBall: rgb(240, 240, 8); 
+    --wdtBall: 50vw;
+    --hgtBall: 60px;
+    --bRadBall: 5px;
+}
+
+
+body {
+    background-color: var(--bcBody);
+}
+
+.ball {
+    width: var(--wdtBall);
+    height: calc(var(--hgtBall) *12);
+    background-color: var(--bcBall);
+    border-radius: var(--bRadBall);
+    font-size: 120px;
+    line-height: 110px;
+    
+}
+
+
+.ball span {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+
+#palla {
+    display: block;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 1.5em;
+
+}
+
+#square{
+    display: block;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 90px;
+
+}
+
